@@ -6,7 +6,7 @@ function App() {
   function handleKeyPress(e) {
     e.preventDefault(e);
     if(document.getElementById(e.key.toUpperCase()) ){
-      document.getElementById("display").innerText = e.key.toUpperCase();
+      document.getElementById("display").innerHTML = `<h2>${e.key.toUpperCase()}</h2>`;
       document.getElementById(e.key.toUpperCase()).play();
     }
   }
@@ -22,6 +22,9 @@ function App() {
         <h1>Drum Machine</h1>
       </header>
       <main>
+        <article id="display">
+          <h2>Hit a Drum Pad!</h2>
+        </article>
         <DrumBox/>
       </main>
       <footer><span>Made by <a href="">Santos Gonzalez</a></span></footer>
@@ -64,7 +67,6 @@ class DrumBox extends React.Component {
       <section
         className="drum-box"
         >
-        <article id="display">Hit a Drum Pad!</article>
         {
           this.state.padList.map( (drum, index) => {
             return <DrumPad
@@ -87,7 +89,7 @@ class DrumPad extends React.Component {
     this.state = {};
   }
   handleClick = (e) => {
-    document.getElementById("display").innerText = this.props.drum;
+    document.getElementById("display").innerHTML = `<h2>${this.props.drum}</h2>`;
     document.getElementById(this.props.drum).play();
   }
   render() {

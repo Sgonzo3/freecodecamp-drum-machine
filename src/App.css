@@ -1,3 +1,7 @@
+html {
+  background: rgb(50, 54, 57);
+}
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -5,28 +9,47 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(143, 143, 143);
 }
 
 header {
-  background-color: #282c34;
+  background-color: rgb(50, 54, 57);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1rem;
   color: white;
   width: 100vw;
 }
 
-drum {
-  border: 1px solid black;
+main {
+  height: 100%;
+}
+h2 {
+  color: white;
+}
+.drum-box {
+  width: 80vw;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+  grid-auto-rows: repeat(3, 300px);
+}
+button {
+  border-radius: 5px;
 }
 
 footer {
   width: 100vw;
-  background-color: #282c34;
+  background-color: rgb(50, 54, 57);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+a:visited {
+  color: rgb(228, 188, 16)
 }
