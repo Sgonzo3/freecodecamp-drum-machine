@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/freecodecamp-drum-machine/static/css/main.2a33a673.chunk.css",
+    "main.js": "/freecodecamp-drum-machine/static/js/main.d6df5e48.chunk.js",
+    "main.js.map": "/freecodecamp-drum-machine/static/js/main.d6df5e48.chunk.js.map",
+    "runtime-main.js": "/freecodecamp-drum-machine/static/js/runtime-main.0899409b.js",
+    "runtime-main.js.map": "/freecodecamp-drum-machine/static/js/runtime-main.0899409b.js.map",
+    "static/js/2.e70a5d51.chunk.js": "/freecodecamp-drum-machine/static/js/2.e70a5d51.chunk.js",
+    "static/js/2.e70a5d51.chunk.js.map": "/freecodecamp-drum-machine/static/js/2.e70a5d51.chunk.js.map",
+    "index.html": "/freecodecamp-drum-machine/index.html",
+    "precache-manifest.74e36ffd6c7ed3a61868e9edc357f9ed.js": "/freecodecamp-drum-machine/precache-manifest.74e36ffd6c7ed3a61868e9edc357f9ed.js",
+    "service-worker.js": "/freecodecamp-drum-machine/service-worker.js",
+    "static/css/main.2a33a673.chunk.css.map": "/freecodecamp-drum-machine/static/css/main.2a33a673.chunk.css.map",
+    "static/js/2.e70a5d51.chunk.js.LICENSE": "/freecodecamp-drum-machine/static/js/2.e70a5d51.chunk.js.LICENSE",
+    "static/media/logo.svg": "/freecodecamp-drum-machine/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0899409b.js",
+    "static/js/2.e70a5d51.chunk.js",
+    "static/css/main.2a33a673.chunk.css",
+    "static/js/main.d6df5e48.chunk.js"
+  ]
+}
